@@ -91,7 +91,7 @@ $(document).ready(function() {
           $("#footer-post").hide();
         } else {
           // upscroll -> hide menu
-          $("#footer-post").show();
+          $("#footer-post").hide();
         }
         lastScrollTop = topDistance;
 
