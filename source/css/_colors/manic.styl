@@ -13,3 +13,14 @@ $color-accent-2 = #eeeeee
 $color-accent-1 = #FF2442
 $color-quote = #ccffb6
 $highlight = hexo-config("highlight") || "rainbow"
+
+.bg-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url(/images/bg.jpg) no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+}
